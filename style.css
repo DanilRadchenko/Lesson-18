@@ -1,0 +1,37 @@
+.bi-suit-heart{
+    float: right;
+}
+.bb{
+    background-color: yellow;
+    border-radius: 10px;
+    color:black;
+    display: flex;
+    align-items: center;
+}
+.bb:hover{
+    background-color: black;
+    color:yellow;
+}
+.ardtext{
+    margin-left: 50px;
+}
+.ff{
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.dd{
+    width:60px;
+}
+@media screen and (max-width:767px) {
+    .col{
+        padding: 5px  5px ;
+        margin:5px 5px ;
+        
+    }  
+    .row{
+        flex-wrap: wrap;
+    }
+}
+
